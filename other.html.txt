@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eredmény</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="content">
+            <p id="szoveg"></p>
+            <p id="datum"></p>
+        </div>
+    </div>
+
+    <script>
+        // Beírt szöveg és dátum megjelenítése
+        const szovegElem = document.getElementById("szoveg");
+        const datumElem = document.getElementById("datum");
+
+        // URL paraméterek kinyerése
+        const urlParams = new URLSearchParams(window.location.search);
+        const szoveg = urlParams.get('szoveg');
+        const datum = new Date().toLocaleString();
+
+        // Beírt szöveg és dátum megjelenítése az oldalon
+        szovegElem.textContent = "Beírt szöveg: " + szoveg;
+        datumElem.textContent = "Dátum: " + datum;
+    </script>
+
+</body>
+</html>
