@@ -1,8 +1,6 @@
 body {
-    font-family: Times New Roman;
-    background-image: url('ship.jpg');
-    background-size: cover;
-    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #87CEFA; /* Babakék */
     color: white;
     padding: 20px;
 }
@@ -34,3 +32,4 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
