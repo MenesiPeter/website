@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szöveg bevitel</title>
+</head>
+<body>
+
+    <form>
+        <label for="szoveg">Írj valamit:</label><br>
+        <input type="text" id="szoveg" name="szoveg"><br><br>
+        <input type="submit" value="Küldés">
+    </form>
+
+</body>
+</html>
