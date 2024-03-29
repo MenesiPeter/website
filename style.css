@@ -1,13 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('ocean.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    padding: 20px;
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('ocean.jpg');
+    background-image: url('ship.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -41,4 +34,3 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-
